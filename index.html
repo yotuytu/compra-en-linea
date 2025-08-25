@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head class="header">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compra en una tienda segura</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+  <script src="scripts/cart.js" defer></script>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header class="header">
+    <div class="logo">Compra en una tienda segura</div>
+    <nav class="navbar">
+      <a href="index.html">Inicio</a>
+      <a href="joyerias.html">Joyeria</a>
+     <a href="tecnologia.html">Tecnología</a>
+      <a href="varios.html">Variado</a>
+     <a href="cart.html">Carrito</a>
+    </nav>
+  </header>
+
+  <!-- Carrusel / Banner -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Los mejores productos</h1>
+      <p>Cosas interesantes para tu Novia(o)</p>
+      <a href="#productos" class="btn">Ver productos</a>
+    </div>
+  </section>
+
+  <!-- Productos destacados -->
+  <section class="productos" id="productos">
+    <h2>Productos destacados</h2>
+    <div class="producto-grid">
+      <div class="producto">
+        <img src="https://d39ru7awumhhs2.cloudfront.net/peru/products/3821/1720892422lapicero%201.PNG" alt="Lapicero 3d Boligrafo Lapiz Turquesa" />
+        <h3>Lapicero 3d Boligrafo Lapiz Turquesa</h3>
+        <p class="descripcion">Un regalo para toda la familia: crea, dibuja, garabatea y construye en 3D con este bolígrafo 3D asequible pero de alta calidad. El nuevo bolígrafo 3D SCRIB3D P1 ayuda a mejorar el pensamiento espacial, la creatividad y las habilidades artísticas. </p>
+        <p>S/. 60.00</p>
+        <button onclick="agregarAlCarrito('Lapicero 3d Boligrafo Lapiz Turquesa', 60)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="https://d39ru7awumhhs2.cloudfront.net/peru/products/3455/1715180713WhatsApp%20Image%202024-04-08%20at%203.18.05%20PM%20(2).jpeg" alt="Tarjetas Didacticas" />
+        <h3>Tarjetas Didacticas</h3>
+        <p class="descripcion">Las tarjetas didácticas son herramientas excelentes para el aprendizaje de los niños, ya que combinan la educación con la diversión de una manera interactiva y visual.</p>
+        <p>S/. 65.00</p>
+        <button onclick="agregarAlCarrito('Tarjetas Didacticas', 65)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="https://d39ru7awumhhs2.cloudfront.net/peru/products/6455/1743447803WhatsApp%20Image%202025-03-31%20at%201.59.50%20PM.jpeg" alt="Proyector De Estrellas Luz De Galaxia" />
+        <h3>Proyector De Estrellas Luz De Galaxia</h3>
+        <p class="descripcion">16 cm x 13 cm x 12 cm medidas transforma tu dormitorio en una galaxia impresionante con este proyector de luz de astronauta creativo Cuenta con una lámpara de luna para una experiencia más realista e inmersiva Perfecto para crear una atmósfera relajante , ideal para la hora de dormir o la meditación Gran idea de regalo para cumpleaños.</p>
+        <p>S/. 89.00</p>
+        <button onclick="agregarAlCarrito('Proyector De Estrellas Luz De Galaxia', 89)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="https://d39ru7awumhhs2.cloudfront.net/peru/products/3457/171518124311.jpg" alt="Set De Brocas Extractora" />
+        <h3>Set De Brocas Extractora</h3>
+        <p class="descripcion">Un set de brocas extractoras es una herramienta esencial para quitar tornillos, pernos, tuercas u otros elementos que se han dañado o atascado en una superficie. Estos sets suelen contener varias brocas extractoras diseñadas para adaptarse a una variedad de tamaños de tornillos o pernos.</p>
+        <p>S/. 80.00</p>
+        <button onclick="agregarAlCarrito('Set De Brocas Extractora', 80)">Agregar al carrito</button>
+    </div>
+    </section>
+    
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <p>&copy; 2025 Compra seguras en línea. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
